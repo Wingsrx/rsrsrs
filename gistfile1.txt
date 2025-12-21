@@ -16,7 +16,7 @@ local PriorityTable = {
 	[7] = Enum.AnimationPriority.Core
 }
 
-local ConvertToTable = loadstring(game:HttpGet("https://gist.githubusercontent.com/randomstring0/d8b2333ef9834b0649ca20f50e335473/raw/99e1027e1e0eeb61f1081775f38e2725a00ae982/gistfile1.txt"))()
+local ConvertToTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/Wingsrx/rsrsrs/refs/heads/main/anothergistfiles1.txt"))()
 local AutoGetMotor6D = function(Object:Model,Motor6DorBone:"Motor6D"|"Bone"):{}
 	if Object == nil or typeof(Object)~="Instance" or not Object:IsA("Model") then warn("Not an model") return end
 	local Motor6D = {}
