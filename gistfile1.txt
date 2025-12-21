@@ -82,7 +82,7 @@ local GetFrameInBetween = function(Animation:table,CurrentDelta:number)
 	return Start,End
 end
 local GroupTamplate = {["i"]={}}
-local ReturnableTypes = loadstring(game:HttpGet("https://gist.githubusercontent.com/randomstring0/c352055ca56ae77f94a6286ab2744a68/raw/e060011f9959f8b588f16f727fd68bb4b1544185/gistfile1.txt"))()
+local ReturnableTypes = loadstring(game:HttpGet("https://raw.githubusercontent.com/Wingsrx/rsrsrs/refs/heads/main/anotherlol1.txt"))()
 
 type AnimType = ReturnableTypes.AnimationSequance
 type SettingsType = ReturnableTypes.Setting
